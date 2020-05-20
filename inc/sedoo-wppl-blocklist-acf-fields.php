@@ -43,6 +43,31 @@ if( function_exists('acf_add_local_field_group') ):
 				'append' => '',
 				'maxlength' => '',
 			),
+			array(
+				'key' => 'field_5ec408a23a211',
+				'label' => 'Affichage',
+				'name' => 'sedoo_blocklist_display',
+				'type' => 'radio',
+				// 'instructions' => 'Le mode annuaire marche uniquement si les noms de familles sont avant les prénoms',
+				'instructions' => '',
+				'required' => 1,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'choices' => array(
+					'list' => 'Liste'
+				//	'anuaire' => 'Annuaire'
+				),
+				'allow_null' => 0,
+				'other_choice' => 0,
+				'default_value' => 'list',
+				'layout' => 'horizontal',
+				'return_format' => 'value',
+				'save_other_choice' => 0,
+			),
 		),
 		'location' => array(
 			array(
