@@ -19,7 +19,7 @@ $prefix = get_field('prefix_des_blocs');
 $display = get_field('sedoo_blocklist_display');
 $first_letter = "0";
 ?>
-<section class="search-blocklist<?php echo $className; ?>">
+<section class="sedoo-blocklist <?php echo $className; ?>">
 <?php if($titre) { ?>  <h2> <?php echo $titre; ?> </h2> <?php } ?>
     <?php 
         $resultats = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}posts WHERE post_type ='wp_block'") ;
@@ -28,9 +28,9 @@ $first_letter = "0";
                 if($display == 'list') {
                 ?>
                     <article id="post-<?php $post->ID; ?>" <?php post_class(); ?>>
-                        <header class="entry-header">
-                            <h3><a href="<?php echo get_permalink($post->ID); ?>"><?php echo substr($post->post_title, strlen($prefix)); ?></a></h3>
-                        </header><!-- .entry-header -->
+                        <div class="entry-content sedoo_blocklist_content">
+                            <?php echo $post->post_content; ?>
+                        </div>
                     </article><!-- #post-->
                 <?php 
 
