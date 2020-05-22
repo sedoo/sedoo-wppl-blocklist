@@ -6,11 +6,11 @@ function register_sedoo_blocklist_block_types() {
     acf_register_block_type(array(
         'name'              => 'sedoo_blocklist',
         'title'             => __('Sedoo Liste de block'),
-        'description'       => __('Ajoute un block annuaire'),
+        'description'       => __('Ajoute une liste de blocs'),
         'render_callback'   => 'sedoo_blocklist_render_callback',
         'enqueue_style'     => plugin_dir_url( __FILE__ ) . 'template-parts/blocklist/blocklist.css',
         'category'          => 'sedoo-block-category',
-        'icon'              => 'media-text',
+        'icon'              => 'editor-justify',
         'keywords'          => array( 'blocklist', 'sedoo', 'block', 'bloc' ),
     ));
 }
