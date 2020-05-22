@@ -1,0 +1,9 @@
+.sedoo-blocklist .sedoo_blocklist_content {
+    margin-bottom: 2em;
+}
+
+.sedoo-blocklist .sedoo_blocklist_content *{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
