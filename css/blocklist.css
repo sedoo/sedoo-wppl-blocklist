@@ -7,3 +7,7 @@
     vertical-align: middle;
     margin-bottom: 0;
 }
+
+.sedoo-blocklist .sedoo_blocklist_content strong{
+    display: block;
+}

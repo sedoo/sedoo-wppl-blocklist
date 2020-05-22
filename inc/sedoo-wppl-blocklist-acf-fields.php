@@ -29,7 +29,7 @@ if( function_exists('acf_add_local_field_group') ):
 				'label' => 'Prefix des blocs',
 				'name' => 'prefix_des_blocs',
 				'type' => 'text',
-				'instructions' => 'Les majuscules ne sont pas prises en comptes.',
+				'instructions' => 'Filtre les blocs par prefixe, les prefixe ne sont pas ajoutés. Ne respecte pas la casse.',
 				'required' => 1,
 				'conditional_logic' => 0,
 				'wrapper' => array(
