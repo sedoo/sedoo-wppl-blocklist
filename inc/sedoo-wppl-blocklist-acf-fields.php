@@ -68,6 +68,27 @@ if( function_exists('acf_add_local_field_group') ):
 				'return_format' => 'value',
 				'save_other_choice' => 0,
 			),
+			array(
+				'key' => 'field_5ec202457a2bd',
+				'label' => 'Nombre de blocs par page',
+				'name' => 'blocs_par_page',
+				'type' => 'number',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => 10,
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'min' => '',
+				'max' => '',
+				'step' => '',
+			),
 		),
 		'location' => array(
 			array(
