@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Sedoo - Blocklist
  * Description: Liste de blocks
- * Version: 0.0.6 
+ * Version: 0.1.0 
  * Author: Nicolas Gruwe & Pierre Vert - SEDOO DATA CENTER
  * Author URI:      https://www.sedoo.fr 
  * GitHub Plugin URI: sedoo/sedoo-wppl-blocklist
